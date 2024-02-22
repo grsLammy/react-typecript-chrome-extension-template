@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "~/*": [
+        "./*"
+      ]
+    },
+    "jsx": "react",
+    "module": "es6",
+    "target": "es6",
+    "baseUrl": "src",
+    "incremental": true,
+    "noImplicitAny": true,
+    "isolatedModules": true,  
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES6", "DOM", "ESNext", "DOM.Iterable"],
+  },
+  "include": ["src", "commitlint.config.js", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"],
+}
