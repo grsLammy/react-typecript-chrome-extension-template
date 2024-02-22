@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 
 const test = (
   <div>
-    <h1>Hello World</h1>)
+    <h1>Hello World</h1>
   </div>
 );
 const container = document.createElement('div');
